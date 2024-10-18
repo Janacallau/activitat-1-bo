@@ -1,0 +1,111 @@
+/* styles.css */
+
+/* Reset de marges i padding */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estils per a la navbar */
+nav {
+    background-color: #f8f9fa;
+    padding: 15px;
+}
+
+.col{
+    text-align: center;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Estils per al contenidor principal */
+.container {
+    width: 100%;
+    height: auto;
+    object-fit: cover; 
+
+}
+
+.col-md-6 {
+    flex: 1;
+    min-width: 800px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+.card {
+    height: 890px !important;
+}
+
+.card img{
+    height: 550px !important;
+}
+
+.footer{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Estils per a les files i columnes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+}
+
+/* Estils per a títols i paràgrafs */
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+.responsive{
+    width: 300;
+    height: auto;
+}
+
+a img {
+    transition: transform 0.3s ease-in-out;
+}
+
+a:hover img {
+    transform: scale(1.05); 
+}
